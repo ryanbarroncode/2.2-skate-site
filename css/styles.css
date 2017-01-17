@@ -1,4 +1,13 @@
 .wrapper {
   background-image: url("../skateboard-images/bg.jpg"); }
 
+.row {
+  overflow: none; }
+  .row img {
+    max-width: 100%; }
+  .row .logo {
+    position: relative;
+    bottom: 570px;
+    left: 50px; }
+
 /*# sourceMappingURL=styles.css.map */

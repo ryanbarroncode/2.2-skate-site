@@ -6,3 +6,21 @@ body{
 .wrapper{
 background-image: url("../skateboard-images/bg.jpg");
 }
+
+
+.skate-menu{
+}
+
+
+
+.row{overflow: none;
+
+  img{
+    max-width: 100%
+  }
+  .logo{
+    position: relative;
+    bottom: 570px;
+    left: 50px;
+  }
+}
