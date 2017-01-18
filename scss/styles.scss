@@ -1,6 +1,19 @@
+$grid-gutter-width: 10px;
+
+@import  "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
 body{
 }
 
+img{
+  max-width: 100%;
+}
+
+// .row{
+//   img{
+//     max-width: 100%
+//   }
+// }
 
 
 .wrapper{
@@ -8,19 +21,65 @@ background-image: url("../skateboard-images/bg.jpg");
 }
 
 
-.skate-menu{
+.menu-button a> button{
+  font-size: 20px;
+  background-color: red;
+  text-decoration: none;
 }
 
 
 
-.row{overflow: none;
-
-  img{
-    max-width: 100%
-  }
+.toplogo{
+  position: relative;
   .logo{
-    position: relative;
-    bottom: 570px;
-    left: 50px;
+    position: absolute;
+    top: 120px;
+    left: 65px;
   }
+}
+
+.topimage{
+  height: 380px;
+  overflow: hidden;
+}
+
+
+.column{
+background-color: white;
+padding: 5px 8px 5px 8px;
+}
+.skate-news{
+margin-top: 30px;
+}
+
+.boards{
+  background-color: white;
+}
+
+.boards img{
+  background-color: white;
+  margin: 10px 23px;
+}
+
+.sk4{
+  background-image: url('../skateboard-images/sk8er-4.png');
+  height: 233px;
+  border: 4px solid white;
+}
+
+.sk3{
+  background-image: url('../skateboard-images/sk8er-3.png');
+  height: 233px;
+  border: 4px solid white;
+}
+
+.sk1{
+  background-image: url('../skateboard-images/sk8er-1.png');
+  height: 233px;
+  border: 4px solid white;
+}
+.sk2{
+  background-image: url('../skateboard-images/sk8er-2.png');
+  height: 233px;
+  border: 4px solid white;
 }
