@@ -24,12 +24,12 @@ background-image: url("../skateboard-images/bg.jpg");
 .menu-button a> button{
   display: inline-block;
   font-size: 20px;
-  background-color: red;
+  color: white;
+  background-color: #B1282D;
   text-decoration: none;
   margin-bottom: 40px;
   width: 100%;
 }
-
 
 
 .toplogo{
@@ -54,6 +54,15 @@ margin-bottom: 20px;
 }
 .skate-news{
 margin-top: 30px;
+}
+.read-more{
+  font-weight: bold;
+  color: #B1282D;
+  h6{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }
 }
 
 .boards{
@@ -113,8 +122,11 @@ h3{position: absolute;
   width: 100%;
 }
 
+
 .contact-us{
   background-color: white;
+  height: 257px;
+  margin-top: 19px;
 }
 
 .your-info{
@@ -131,4 +143,7 @@ h3{position: absolute;
 .form-control1{
   width: 563px;
   height: 101px;
+}
+.smb{
+
 }

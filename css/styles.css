@@ -5815,7 +5815,8 @@ img {
 .menu-button a > button {
   display: inline-block;
   font-size: 20px;
-  background-color: red;
+  color: white;
+  background-color: #B1282D;
   text-decoration: none;
   margin-bottom: 40px;
   width: 100%; }
@@ -5838,6 +5839,14 @@ img {
 
 .skate-news {
   margin-top: 30px; }
+
+.read-more {
+  font-weight: bold;
+  color: #B1282D; }
+  .read-more h6 {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center; }
 
 .boards {
   background-color: white;
@@ -5891,7 +5900,9 @@ h3 {
   width: 100%; }
 
 .contact-us {
-  background-color: white; }
+  background-color: white;
+  height: 257px;
+  margin-top: 19px; }
 
 .your-info {
   background-color: white;
