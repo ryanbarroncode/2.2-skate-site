@@ -5819,18 +5819,40 @@ img {
   background-color: #B1282D;
   text-decoration: none;
   margin-bottom: 40px;
-  width: 100%; }
+  width: 100%;
+  height: 55px; }
 
 .toplogo {
   position: relative; }
   .toplogo .logo {
     position: absolute;
     top: 120px;
-    left: 65px; }
+    left: 65px;
+    overflow: hidden;
+    width: 35%; }
 
 .topimage {
-  height: 380px;
-  overflow: hidden; }
+  background-image: url("../skateboard-images/top-image.png");
+  height: 418px;
+  background-position: -95px -92px;
+  border: 10px solid white; }
+
+.overlay {
+  content: '';
+  position: absolute;
+  background-image: url("../skateboard-images/grid.png");
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .3; }
+
+.radio-inline {
+  text-align: center; }
+
+.checkbox {
+  text-align: center;
+  margin: 27px; }
 
 .column {
   background-color: white;
@@ -5861,6 +5883,7 @@ img {
   background-image: url("../skateboard-images/sk8er-4.png");
   background-position: -78px 1px;
   height: 233px;
+  overflow: hidden;
   border: 4px solid white;
   background-repeat: no-repeat; }
 
@@ -5869,13 +5892,15 @@ img {
   background-position: 1px 1px;
   height: 233px;
   border: 4px solid white;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  overflow: hidden; }
 
 .sk1 {
   background-repeat: no-repeat;
   background-image: url("../skateboard-images/sk8er-1.png");
   background-position: 1px -75px;
   height: 233px;
+  overflow: hidden;
   border: 4px solid white;
   width: 100%;
   background-size: cover; }
@@ -5884,7 +5909,8 @@ img {
   background-image: url("../skateboard-images/sk8er-2.png");
   background-position: 415px 1px;
   height: 485px;
-  border: 4px solid white; }
+  border: 4px solid white;
+  overflow: hidden; }
 
 h3 {
   position: absolute;
@@ -5906,13 +5932,13 @@ h3 {
 
 .your-info {
   background-color: white;
-  text-align: center; }
+  text-align: center;
+  padding-top: 10px; }
 
 .form-group {
   width: 50%; }
 
 .form-control {
-  margin-top: 10px;
   width: 563px; }
 
 .form-control1 {
@@ -5923,5 +5949,9 @@ h3 {
   width: 150px;
   color: white;
   background-color: #B1282D; }
+
+.smb {
+  font-size: 60px;
+  color: grey; }
 
 /*# sourceMappingURL=styles.css.map */

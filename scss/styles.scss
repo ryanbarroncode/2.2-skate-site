@@ -19,6 +19,8 @@ img{
 .wrapper{
 background-image: url("../skateboard-images/bg.jpg");
 }
+.wrapper::before{
+}
 
 
 .menu-button a> button{
@@ -29,6 +31,7 @@ background-image: url("../skateboard-images/bg.jpg");
   text-decoration: none;
   margin-bottom: 40px;
   width: 100%;
+  height: 55px;
 }
 
 
@@ -38,23 +41,54 @@ background-image: url("../skateboard-images/bg.jpg");
     position: absolute;
     top: 120px;
     left: 65px;
+    overflow: hidden;
+    width: 35%;
   }
 }
 
+
 .topimage{
-  height: 380px;
-  overflow: hidden;
+background-image: url('../skateboard-images/top-image.png');
+height: 418px;
+background-position: -95px -92px;
+border: 10px solid white;
 }
 
+.overlay{
+// .topimage::before{
+  content: '';
+  position: absolute;
+  background-image: url("../skateboard-images/grid.png");
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .3;
+}
+
+
+.radio-inline{
+  text-align: center;
+}
+
+.checkbox{
+  text-align: center;
+  margin: 27px;
+}
 
 .column{
 background-color: white;
 padding: 5px 8px 5px 8px;
 margin-bottom: 20px;
+  h1{
+
+  }
 }
+
 .skate-news{
 margin-top: 30px;
 }
+
 .read-more{
   font-weight: bold;
   color: #B1282D;
@@ -80,6 +114,7 @@ margin-top: 30px;
   background-image: url('../skateboard-images/sk8er-4.png');
   background-position: -78px 1px;
   height: 233px;
+  overflow: hidden;
   border: 4px solid white;
   background-repeat: no-repeat;
 }
@@ -90,6 +125,7 @@ margin-top: 30px;
   height: 233px;
   border: 4px solid white;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .sk1{
@@ -97,6 +133,7 @@ margin-top: 30px;
   background-image: url('../skateboard-images/sk8er-1.png');
   background-position: 1px -75px;
   height: 233px;
+  overflow: hidden;
   border: 4px solid white;
   width: 100%;
   background-size: cover;
@@ -107,6 +144,7 @@ margin-top: 30px;
   height: 485px;
   border: 4px solid white;
   // background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 h3{position: absolute;
@@ -132,12 +170,12 @@ h3{position: absolute;
 .your-info{
   background-color: white;
   text-align: center;
+  padding-top: 10px;
 }
 .form-group{
   width: 50%;
 }
 .form-control{
-  margin-top: 10px;
   width: 563px;
 }
 .form-control1{
@@ -149,6 +187,8 @@ h3{position: absolute;
   color: white;
   background-color: #B1282D;
 }
-.smb{
 
+.smb{
+font-size: 60px;
+color: grey;
 }
