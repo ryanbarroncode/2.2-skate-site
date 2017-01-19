@@ -5919,4 +5919,9 @@ h3 {
   width: 563px;
   height: 101px; }
 
+.btn-default {
+  width: 150px;
+  color: white;
+  background-color: #B1282D; }
+
 /*# sourceMappingURL=styles.css.map */
