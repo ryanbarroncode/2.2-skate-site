@@ -5813,9 +5813,12 @@ img {
   background-image: url("../skateboard-images/bg.jpg"); }
 
 .menu-button a > button {
+  display: inline-block;
   font-size: 20px;
   background-color: red;
-  text-decoration: none; }
+  text-decoration: none;
+  margin-bottom: 40px;
+  width: 100%; }
 
 .toplogo {
   position: relative; }
@@ -5830,13 +5833,16 @@ img {
 
 .column {
   background-color: white;
-  padding: 5px 8px 5px 8px; }
+  padding: 5px 8px 5px 8px;
+  margin-bottom: 20px; }
 
 .skate-news {
   margin-top: 30px; }
 
 .boards {
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: 20px; }
 
 .boards img {
   background-color: white;
@@ -5844,22 +5850,62 @@ img {
 
 .sk4 {
   background-image: url("../skateboard-images/sk8er-4.png");
+  background-position: -78px 1px;
   height: 233px;
-  border: 4px solid white; }
+  border: 4px solid white;
+  background-repeat: no-repeat; }
 
 .sk3 {
   background-image: url("../skateboard-images/sk8er-3.png");
+  background-position: 1px 1px;
   height: 233px;
-  border: 4px solid white; }
+  border: 4px solid white;
+  background-repeat: no-repeat; }
 
 .sk1 {
+  background-repeat: no-repeat;
   background-image: url("../skateboard-images/sk8er-1.png");
+  background-position: 1px -75px;
   height: 233px;
-  border: 4px solid white; }
+  border: 4px solid white;
+  width: 100%;
+  background-size: cover; }
 
 .sk2 {
   background-image: url("../skateboard-images/sk8er-2.png");
-  height: 233px;
+  background-position: 415px 1px;
+  height: 485px;
   border: 4px solid white; }
+
+h3 {
+  position: absolute;
+  top: 38%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 44px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  width: 100%; }
+
+.contact-us {
+  background-color: white; }
+
+.your-info {
+  background-color: white;
+  text-align: center; }
+
+.form-group {
+  width: 50%; }
+
+.form-control {
+  margin-top: 10px;
+  width: 563px; }
+
+.form-control1 {
+  width: 563px;
+  height: 101px; }
 
 /*# sourceMappingURL=styles.css.map */
