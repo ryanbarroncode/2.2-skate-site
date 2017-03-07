@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/*
+ * Bootstrap vars
+ */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -4077,7 +4080,7 @@ tbody.collapse.in {
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
-      content: "/ ";
+      content: "/ ";
       padding: 0 5px;
       color: #ccc; }
   .breadcrumb > .active {
@@ -5806,180 +5809,173 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+/*
+ * General layout
+ */
 img {
   max-width: 100%; }
 
 .wrapper {
-  background-image: url("../skateboard-images/bg.jpg"); }
-
-.fa-facebook {
-  color: white;
-  background-color: #1722bd;
-  font-size: 50px;
-  width: 50px;
-  text-align: center; }
-
-.fa-rss {
-  color: white;
-  background-color: #e0ab0b;
-  font-size: 50px;
-  width: 50px;
-  text-align: center; }
-
-.fa-twitter {
-  color: white;
-  background-color: lightblue;
-  font-size: 50px;
-  width: 50px;
-  text-align: center; }
-
-.fa-youtube {
-  background-color: #b51b1b;
-  color: white;
-  font-size: 50px;
-  width: 50px;
-  text-align: center; }
-
-.menu-button a > button {
-  display: inline-block;
-  font-size: 20px;
-  color: white;
-  background-color: #B1282D;
-  text-decoration: none;
-  margin-bottom: 40px;
-  width: 100%;
-  height: 55px; }
-
-.toplogo {
-  position: relative; }
-  .toplogo .logo {
-    position: absolute;
-    top: 120px;
-    left: 65px;
-    overflow: hidden;
-    width: 35%; }
-
-.topimage {
-  background-image: url("../skateboard-images/top-image.png");
-  height: 418px;
-  background-position: -95px -92px;
-  border: 10px solid white; }
-
-.overlay {
-  content: '';
-  position: absolute;
-  background-image: url("../skateboard-images/grid.png");
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: .3; }
-
-.radio-inline {
-  text-align: center; }
-
-.checkbox {
-  text-align: center;
-  margin: 27px; }
-
-.column {
-  background-color: white;
-  padding: 5px 8px 5px 8px;
-  margin-bottom: 20px; }
-
-.skate-news {
-  margin-top: 30px; }
-
-.read-more {
-  font-weight: bold;
-  color: #B1282D; }
-  .read-more h6 {
-    font-weight: bold;
-    font-size: 15px;
-    text-align: center; }
-
-.boards {
-  background-color: white;
-  margin-bottom: 20px;
-  margin-top: 20px; }
-
-.boards img {
-  background-color: white;
-  margin: 10px 23px; }
-
-.sk4 {
-  background-image: url("../skateboard-images/sk8er-4.png");
-  background-position: -78px 1px;
-  height: 233px;
-  overflow: hidden;
-  border: 4px solid white;
-  background-repeat: no-repeat; }
-
-.sk3 {
-  background-image: url("../skateboard-images/sk8er-3.png");
-  background-position: 1px 1px;
-  height: 233px;
-  border: 4px solid white;
-  background-repeat: no-repeat;
-  overflow: hidden; }
-
-.sk1 {
-  background-repeat: no-repeat;
-  background-image: url("../skateboard-images/sk8er-1.png");
-  background-position: 1px -75px;
-  height: 233px;
-  overflow: hidden;
-  border: 4px solid white;
-  width: 100%;
+  background-image: url("../images/bg-darkened.jpg");
   background-size: cover; }
 
-.sk2 {
-  background-image: url("../skateboard-images/sk8er-2.png");
-  background-position: 415px 1px;
-  height: 485px;
-  border: 4px solid white;
-  overflow: hidden; }
-
-h3 {
-  position: absolute;
-  top: 38%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1px;
-  margin-bottom: 1px;
-  font-size: 44px;
-  font-weight: bolder;
-  text-align: center;
+.social-media {
   color: white;
-  width: 100%; }
+  text-transform: uppercase;
+  margin-top: 1%; }
+  .social-media .btn {
+    float: right;
+    margin-left: 1%;
+    margin-top: 1%;
+    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+    color: rgba(200, 200, 200, 0.5); }
+  .social-media .fa-ellipsis-v {
+    float: right;
+    padding-top: 2.5%;
+    margin-right: 1%; }
+  .social-media span {
+    float: right;
+    padding-top: 2.25%;
+    margin-right: 5%; }
+
+.top-nav {
+  text-transform: uppercase;
+  margin-top: 1%; }
+  .top-nav .top-nav-btn {
+    display: inline-block;
+    text-align: center;
+    width: 100%; }
+  .top-nav a {
+    display: inline-block;
+    background-color: #D22127;
+    color: white;
+    margin-top: 1%;
+    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+    width: 100%; }
+
+.logo {
+  position: relative;
+  height: 335px;
+  background-image: url("../images/top-image.png");
+  background-position: 5% 30%;
+  border: 10px solid white;
+  box-shadow: 0px 10px 10px white;
+  margin-top: 1%;
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+  overflow: hidden; }
+  .logo .overlay {
+    opacity: 0.3; }
+  .logo .logo-img {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    transform: scale(1.1); }
+
+.read-more .btn {
+  display: inline-block;
+  background-color: white;
+  margin-top: 1%;
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
+.read-more .scroll-buttons {
+  text-align: center;
+  color: transparent;
+  margin-top: 3%; }
+.read-more h3, .read-more h6, .read-more p {
+  text-align: left;
+  padding: 1% 5% 1% 5%; }
+.read-more h3 {
+  padding-top: 5%; }
+.read-more h6 {
+  font-size: 1em;
+  color: #A5A5A5; }
+.read-more a {
+  display: block;
+  color: red;
+  text-align: center;
+  margin-top: 10%; }
+.read-more .read-more-story {
+  margin-top: 1%;
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+  margin-bottom: 1%;
+  background-color: white;
+  min-height: 350px; }
+
+.skateboarders {
+  position: relative;
+  margin-top: 2%; }
+  .skateboarders .tag {
+    position: absolute;
+    left: -300px;
+    top: 50px; }
+  .skateboarders h2 {
+    font-size: 3em;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    color: white; }
+  .skateboarders .profile {
+    margin-top: 1%;
+    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+    margin-top: 2%;
+    height: 250px;
+    text-transform: uppercase;
+    border: 5px solid white; }
+  .skateboarders a {
+    color: white; }
+
+.lance {
+  background-image: url("../images/sk8er-4.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat; }
+
+.rodney {
+  background-image: url("../images/sk8er-3.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+.steve {
+  background-image: url("../images/sk8er-1.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+.tommy {
+  background-image: url("../images/sk8er-2.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat; }
+
+@media (min-width: 989px) {
+  #tommy-pic {
+    height: 515px; } }
+
+.board-designs {
+  margin-top: 2%;
+  margin-bottom: 3%; }
+
+.board-design {
+  background-color: white;
+  text-align: center;
+  margin-top: 1%;
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
+  .board-design img {
+    margin: 2%; }
 
 .contact-us {
+  margin-top: 1%;
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
   background-color: white;
-  height: 257px;
-  margin-top: 19px; }
-
-.your-info {
-  background-color: white;
-  text-align: center;
-  padding-top: 10px; }
-
-.form-group {
-  width: 50%; }
-
-.form-control {
-  width: 563px; }
-
-.form-control1 {
-  width: 563px;
-  height: 101px; }
-
-.btn-default {
-  width: 150px;
-  color: white;
-  background-color: #B1282D; }
-
-.smb {
-  font-size: 60px;
-  color: grey; }
+  padding: 5%;
+  margin-bottom: 5%; }
+  .contact-us .information {
+    margin-right: 4%; }
+  .contact-us label {
+    width: 100%; }
+  .contact-us .input-message {
+    min-height: 100px; }
+  .contact-us .btn {
+    float: right; }
 
 /*# sourceMappingURL=styles.css.map */
